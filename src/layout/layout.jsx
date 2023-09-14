@@ -4,7 +4,14 @@ import Header from "./components/header";
 
 const Layout = () => {
   return (
-    <div className="h-screen w-screen font-mono">
+    <div
+      className="h-screen w-screen font-mono"
+      style={{
+        backgroundImage: "url(assets/image/wallpaper.svg)",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
       <div className="bg-2 txc-5 drop-shadow">
         <Header />
       </div>

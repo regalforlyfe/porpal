@@ -7,6 +7,13 @@ body {
   background-color: #e7eeed;
 }
 
+.window {
+  /* padding: 20px; */
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: white;
+}
+
 .txc-1 {
   color: #133cb8;
 }
