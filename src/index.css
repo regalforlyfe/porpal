@@ -47,7 +47,7 @@ body {
 }
 
 .bg-4 {
-  background-color: #96ffca;
+  background-color:  ;
 }
 
 .bg-5 {
@@ -73,6 +73,10 @@ body {
   border-bottom-width: 2px;
   border-bottom-style: dashed;
   transition: all 0.5s ease-in-out;
+}
+
+.navb:hover{
+  transform: scale(1.2);
 }
 
 .header-desktop {

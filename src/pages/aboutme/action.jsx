@@ -3,7 +3,7 @@ async function sleep(msec = 600) {
 }
 
 const getData = async (setData, setLoading) => {
-  setLoading(true);
+  // setLoading(true);
   const data = {
     subtitle: "AHMAD RIFAL",
     title: "As Frontend Developer.",
